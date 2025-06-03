@@ -37,6 +37,7 @@ function buildInterface(){
     clickySpot.addEventListener("click", ctxStarter);
 }
 function ctxStarter(){
+    Tone.start();
     console.log("start the bork");
     synth = new Tone.Synth().toDestination();
 }

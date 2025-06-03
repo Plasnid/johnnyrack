@@ -1,0 +1,21 @@
+{
+  "name": "johnnyrack",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "johnny-five": "^2.1.0",
+    "package.json": "^2.0.1",
+    "tone": "^15.1.22",
+    "webmidi": "^3.1.12"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
